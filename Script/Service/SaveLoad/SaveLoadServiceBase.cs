@@ -99,7 +99,6 @@ namespace ETServerSystem
                 Debug.LogWarning($"[{GetType().Name}] Server hard-banned this device. Aborting game data load.");
                 return;
             }
-
             // Load local data
             TState localState = LoadLocalState();
 
